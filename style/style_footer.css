@@ -16,6 +16,7 @@ footer {
     display: flex;
     flex-direction: column;    
 }
+.footer_sidebar>a {color:white;}
 .footer_form {
     display:flex;
     flex-direction: column;
@@ -28,7 +29,12 @@ footer {
 }
 .footer_contact {
     margin-left: 60px;
+    color: white;
 }
+.footer_contact>p>a {
+    color: white;
+}
+.footer_contact>p>a:hover{color:rgb(99, 158, 190);}
 .f_post_wrapper {
     display:grid;
     grid-template: auto auto auto / auto 1fr;
@@ -36,6 +42,8 @@ footer {
     gap: 10px;
     margin-bottom: 10px;
 }
+.footer_post>div>a {color: white;}
+.footer_post>div>a:hover {color:rgb(99, 158, 190);}
 .f_b {
     width: 100%;
     max-width: 54px;
