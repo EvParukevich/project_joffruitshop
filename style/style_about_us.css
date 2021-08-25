@@ -1,0 +1,12 @@
+.about_us_grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 60px;
+}
+.about {
+    max-width: 340px;
+    width:100%;
+}
+.about_us_grid>div>h2 {
+    color: rgb(40, 47, 64);
+}

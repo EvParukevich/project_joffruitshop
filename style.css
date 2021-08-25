@@ -1,0 +1,74 @@
+@import url(./style/style_about_us.css);
+@import url(./style/style_blog.css);
+@import url(./style/button.css);
+@import url(./style/style_call_back.css);
+@import url(./style/style_footer.css);
+@import url(./style/style_freshlemon.css);
+@import url(./style/style_fruits.css);
+@import url(./style/style_home.css);
+@import url(./style/style_menu.css);
+@import url(./style/style_nav.css);
+html {scroll-behavior: smooth;}
+@media screen and (max-width:860px) {
+    .menu_nav_ul {display: none;}
+    .menu_nav_btn {display:block;}
+    .menu_nav_btn>input {margin:0;}
+}
+@media screen and (max-width:800px) {
+    .home_back_border {display:none;}
+    .slider {position: static;}
+    .home_item2 {background-color:rgb(40, 47, 64);}
+    .fruits_wrapper>h2 {position: static;}
+    .fruits_wrapper>img {position: static;}
+    .fruits_wrapper>h3 {position: static;}
+    .fruits_wrapper>strong {position: static;}
+    .blog_wrapper>h2 {position: static;}
+    .blog_wrapper>div {position: static;}
+    .blog_wrapper>h4 {position: static;}
+    .blog_wrapper>p {position: static;}
+    h3 {
+        font-size: calc(16px + (23.4 - 16)*((100vw - 320px)/ (1200 - 320)));
+    }
+    p, a, h4 {
+        font-size: calc(14px + (20 - 14)*((100vw - 320px)/ (1200 - 320)));
+    }
+    .logo>img {
+      width:100%;
+      max-width: calc(100px + (140 - 100)*((100vw - 320px)/ (1200 - 320)));  
+    }
+    .menu_nav_btn>ul>li>a {
+        font-size: calc(12px + (18 - 12)*((100vw - 320px)/ (1200 - 320)));
+    }
+    .footer_form>form>input {
+        margin-right: 0;
+        width: 90%;
+        padding: 0;
+        font-size: calc(10px + (13.3333 - 10)*((100vw - 320px)/ (1200 - 320)));
+    }   
+    .f_b {display: none;}
+    .f_post_wrapper {
+        grid-template: 1fr 1fr 1fr / 1fr;
+    }    
+}
+@media screen and (max-width:600px) {
+    .menu_nav_border {width:100%;border-right: 0;}
+    .menu_nav {margin:0; padding:0;}
+    .home_wrapper {margin-right: 0;}
+    .home_item1 {padding: 10px 0;}
+    .about_us_grid {margin: 20px 0;}
+    .fruits_wrapper {margin-right: 0;}    
+    .fresh_wrapper {
+        display: flex;        
+        margin: 20px 0;
+    }
+    .blog_wrapper {
+        margin-left: 0;
+        padding: 20px 0;
+    }
+    .footer_contact {margin-left: 0;}
+    h2 {
+        font-size: calc(20px + (30 - 20)*((100vw - 320px)/ (1200 - 320)));
+    }
+    .btn3 {margin-left: 60px;}
+    .scroll_top {display: none;} 
+}
