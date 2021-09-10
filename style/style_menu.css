@@ -17,8 +17,7 @@ body {
 }
 .menu_nav_ul {
     display: flex;
-    justify-content:space-between;    
-        
+    justify-content:space-between;
 }
 .menu_nav .logo {
     justify-self: flex-start;
