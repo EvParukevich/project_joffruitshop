@@ -70,5 +70,20 @@ html {scroll-behavior: smooth;}
         font-size: calc(20px + (30 - 20)*((100vw - 320px)/ (1200 - 320)));
     }
     .btn3 {margin-left: 60px;}
-    .scroll_top {display: none;} 
+    .scroll_top {display: none;}  
+}
+@media screen and (max-width:380px) {
+    .call_back_wrapper>div>form {
+        margin-right: 0;
+        width: 300px;
+        right: 0;
+    }
+    .call_back_wrapper>div>h2 {
+        right: 0;
+    }
+    .call_back_wrapper>img {display: none;}
+    .call_back_wrapper {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    } 
 }
