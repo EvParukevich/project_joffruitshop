@@ -1,0 +1,39 @@
+.call_back_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+}
+.call_back_wrapper>div>form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    position: relative;
+    right: 30px;
+}
+.call_back_wrapper>div>form>input {
+    height: 45.8px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    background-color: rgb(40, 47, 64);
+}
+.call_back_wrapper>div>form>textarea {
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(40, 47, 64);
+}
+.call_back_wrapper>div>h2 {
+    color: #0ec6f4;
+    font-weight:900;
+    position: relative;
+    right: 30px;    
+}
+.call_back_wrapper>div>h2::before {
+    content: "Request a ";
+    color:rgb(40, 47, 64);
+    font-weight: 200;
+}
+.call_back_wrapper>img {
+    max-width: 720px;
+    width:100%;    
+}

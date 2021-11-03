@@ -1,0 +1,19 @@
+.fresh_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+}
+.fresh_item1>h2 {
+    color: rgb(99, 158, 190);
+}
+.fresh_item2 {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+.fresh_item2>img {
+    width: 100%;
+    max-width: 400px;     
+}

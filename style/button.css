@@ -1,0 +1,61 @@
+.btn {
+    padding: 15px 34px;
+    overflow: hidden;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    letter-spacing: 1px;    
+    font-weight: 600;
+    border-width: 0;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    outline: none;
+    cursor: pointer;
+ }
+ .btn1, .btn2, .btn3 {
+    background: linear-gradient(90deg,rgb(40, 47, 64),rgb(99, 158, 190));
+ }
+ .btn1 {
+     margin-left: 60px;
+     margin-top: 20px;
+ }
+ .btn4 {
+    width:150px;
+    background: linear-gradient(90deg,rgb(99, 158, 190),#0ec6f4);
+    color: black;    
+ }
+ .btn5 {
+   width: 120px;
+   background: linear-gradient(90deg,rgb(99, 158, 190),#0ec6f4);
+   padding: 10px 15px;
+   color: black;
+ }
+ .btn:before, .btn:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    left: -110%;
+    top: 0;
+    opacity: 0.1;
+    background: black;
+    transform: skewX(25deg);
+    transition: .5s ease;
+ }
+ .btn:hover:before {
+    left: -10%;
+    transition: .3s ease;
+ }
+ .btn:hover:after {
+    left: -20%;
+ }
+.scroll_top {
+   position: fixed;
+   right: 10px;
+   padding: 0 6px;  
+   font-size: 40px;
+   text-align: center;   
+   transform:rotate(90deg);
+   transition: transform 80ms ease-in;
+   pointer-events: all;
+   top: calc(100vh - 3rem);     
+}
